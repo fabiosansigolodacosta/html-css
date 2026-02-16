@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externar</title>
+    <style>
+        @font-face {
+        font-family: 'Aqub';
+        src: url('fonts/Aqub-DemoVersion-Regular.woff2') format('woff2'),
+        url('fonts/Aqub-DemoVersion-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        }
+        /* Tipos de format():
+           -opentype(otf)
+           -truetype(ttf)
+           -embedded-opentype
+           -truetype-aat
+           -svg */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Aqub', Times, serif;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam adipisci, ducimus accusamus ea quisquam ut est ratione temporibus in laudantium perferendis ipsum voluptates nesciunt deserunt voluptatem a, quam ipsam.</p>
+</body>
+</html>
